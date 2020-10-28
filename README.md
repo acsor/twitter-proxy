@@ -26,8 +26,12 @@ Allows you to make requests to the Twitter API from the comfort of your browser.
 0. Run the app using the saved config: 
 
     ```sh
-    $ twitter-proxy ~/config.json # If installed with npm i -g
-    $ npm start ~/config.json     # If you cloned the repository
+    # If you installed with npm i -g
+    $ twitter-proxy ~/config.json
+
+    # If you cloned this repository
+    $ npm install
+    $ npm start ~/config.json
     ```
 
 You can now make requests to Twitter APIs by substituting Twitter base URL with `http://localhost:port`, where `port`
